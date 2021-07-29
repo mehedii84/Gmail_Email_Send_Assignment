@@ -25,7 +25,7 @@ public class TestClass {
     public void GmailTest() throws InterruptedException {
 
         String Gmail_URL="https://mail.google.com/";
-        WebDriver driver = BrowserManager.getDriver("chrome",Gmail_URL);
+        WebDriver driver = BrowserManager.getDriver("firefox",Gmail_URL);
 
         Enter_Email obj = new Enter_Email(driver);
         obj.SetEnter_Email_Input("mehedisp24@gmail.com");
